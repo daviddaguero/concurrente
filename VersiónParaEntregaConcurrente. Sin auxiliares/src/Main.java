@@ -61,22 +61,23 @@ public class Main {
 
         List<InvTransicion> listaInvariantes = new ArrayList<>();
         //Tinvariantes
-        int [] gruposInvariante1 = {2, 6, 8, 12, 14, 16, 18, 20};
+        int [] gruposInvariante1 = {1, 4, 6, 8};
         InvTransicion invariante1 = new InvTransicion("invariante1", gruposInvariante1);
-        int [] gruposInvariante2 = {2, 6, 8, 22, 24, 26};
+        int [] gruposInvariante2 = {1, 9, 11, 13};
         InvTransicion invariante2 = new InvTransicion("invariante2", gruposInvariante2);
-        int [] gruposInvariante3 = {2, 6, 8, 28, 30, 32};
+        int [] gruposInvariante3 = {15, 17};
         InvTransicion invariante3 = new InvTransicion("invariante3", gruposInvariante3);
-        int [] gruposInvariante4 = {2, 6, 8, 34, 36, 38};
+        int [] gruposInvariante4 = {19, 21};
         InvTransicion invariante4 = new InvTransicion("invariante4", gruposInvariante4);
-        int [] gruposInvariante5 = {2, 40, 42, 46, 48, 50, 52, 54};
+        int [] gruposInvariante5 = {23, 25, 27};
         InvTransicion invariante5 = new InvTransicion("invariante5", gruposInvariante5);
-        int [] gruposInvariante6 = {2, 40, 42, 56, 58, 60};
+        int [] gruposInvariante6 = {29, 31, 33};
         InvTransicion invariante6 = new InvTransicion("invariante6", gruposInvariante6);
-        int [] gruposInvariante7 = {2, 40, 42, 62, 64, 66};
+        /*int [] gruposInvariante7 = {21, 23, 25};
         InvTransicion invariante7 = new InvTransicion("invariante7", gruposInvariante7);
-        int [] gruposInvariante8 = {2, 40, 42, 68, 70, 72};
+        int [] gruposInvariante8 = {27, 29, 31};
         InvTransicion invariante8 = new InvTransicion("invariante8", gruposInvariante8);
+         */
 
 
         listaInvariantes.add(invariante1);
@@ -85,8 +86,8 @@ public class Main {
         listaInvariantes.add(invariante4);
         listaInvariantes.add(invariante5);
         listaInvariantes.add(invariante6);
-        listaInvariantes.add(invariante7);
-        listaInvariantes.add(invariante8);
+        //listaInvariantes.add(invariante7);
+        //listaInvariantes.add(invariante8);
 
 
         Regex regex = new Regex(log, listaInvariantes);
